@@ -20,6 +20,7 @@
             <input type="number" step="any" name="precoProduto" value="<?=$precoProduto?>">
             <label for="percentual">Qual será o percentual de reajuste? <?=$percentual?></label>
             <input type="number" name="percentual" value="<?=$percentual?>">
+            <input type="radio" name="percentual" value="<?=$percentual?>">
             <input type="submit" value="Reajustar">
         </form>
     </main>
