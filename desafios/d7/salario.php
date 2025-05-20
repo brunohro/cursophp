@@ -27,10 +27,6 @@
         $quantSalario = intdiv($valor, $salario);
         $valorSalario = $salario * $quantSalario;
         $sobra = $valor - $valorSalario;
-
-        echo $quantSalario . "<br>";
-        echo $valorSalario. "<br>";
-        echo $sobra. "<br>";
         
         ?>
     </main>
